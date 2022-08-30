@@ -42,3 +42,35 @@ body {
     color: #fff;
   }
 }
+
+// Header
+header {
+  padding: 180px 0 165px;
+  margin-top: -70px;
+  background-image: url('../images/header.jpeg');
+  background-size: cover;
+
+  h1, p {
+    color: #fff;
+  }
+
+  h1 {
+    font-family: 'Playfair Display', serif;
+    font-weight: bold;
+  }
+
+  p {
+    font-size: 22px;
+  }
+
+  .btn-get-started {
+    background-color: #FF9E53;
+    color: #fff;
+
+    &:hover {
+      background-color: #FFAA69;
+      color: #fff;
+    }
+  }
+
+}
