@@ -1,7 +1,7 @@
 body {
   background-color: #fff;
   font-family: "Assistant", sans-serif;
-  color: #071C4D;
+  color: #434343;
 }
 
 .navbar-brand img {
@@ -17,15 +17,15 @@ body {
 }
 
 .navbar-light .navbar-nav .nav-link {
-  color: #071C4D;
+  color: #434343;
 }
 .navbar-light .navbar-nav .nav-link.active {
   font-weight: bold;
-  color: #071C4D !important;
+  color: #434343 !important;
 }
 
 .btn-login {
-  background-color: #071C4D;
+  background-color: #1BA0E2;
   color: #fff;
 }
 .btn-login:hover {
@@ -50,7 +50,7 @@ header p {
   font-size: 22px;
 }
 header .btn-get-started {
-  background-color: #FF9E53;
+  background-color: #FA5B17;
   color: #fff;
 }
 header .btn-get-started:hover {
@@ -76,7 +76,7 @@ header .btn-get-started:hover {
 
 .section-popular {
   min-height: 540px;
-  background: #051334;
+  background: linear-gradient(#1494C6, #96D7F8);
   margin-top: -50px;
   margin-bottom: -230px;
 }
@@ -109,7 +109,7 @@ header .btn-get-started:hover {
   color: #fff;
 }
 .section-popular-content .section-popular-travel .card-travel .travel-button .btn-travel-details {
-  background-color: #FF9E53;
+  background-color: #FA5B17;
   color: #fff;
 }
 .section-popular-content .section-popular-travel .card-travel .travel-button .btn-travel-details:hover {
@@ -171,7 +171,7 @@ header .btn-get-started:hover {
   margin-right: -20px;
 }
 .section-testimonials-content .btn-get-started {
-  background-color: #FF9E53;
+  background-color: #FA5B17;
   color: #fff;
 }
 .section-testimonials-content .btn-get-started:hover {
@@ -227,7 +227,7 @@ header .btn-get-started:hover {
   font-weight: bold;
 }
 .section-details-content .card-details .trip-informations .text-orange {
-  color: #FF9E53;
+  color: #FA5B17;
   font-weight: bold;
 }
 .section-details-content .card-details h1 {
@@ -292,7 +292,7 @@ header .btn-get-started:hover {
   margin-top: -16px;
 }
 .section-details-content .btn-join-now {
-  background-color: #FF9E53;
+  background-color: #FA5B17;
   color: #fff;
   border-radius: 0;
 }
@@ -325,7 +325,7 @@ header .btn-get-started:hover {
   float: left;
 }
 .section-details-content .btn-add-now {
-  background-color: #071C4D;
+  background-color: #1BA0E2;
   color: #fff;
 }
 .section-details-content .btn-add-now:hover {
@@ -357,11 +357,11 @@ header .btn-get-started:hover {
 .section-success p {
   font-weight: 300;
   font-size: 18px;
-  color: #b1b1b1;
+  color: #434343;
 }
 .section-success .btn-home-page {
   border-radius: 4px;
-  background: #071c4d;
+  background: #1BA0E2;
   color: #fff;
 }
 .section-success .btn-home-page:hover {

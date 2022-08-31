@@ -1,6 +1,6 @@
 gj.dialog.messages['it-it'] = {
     Close: 'Chiudi',
-    DefaultTitle: 'Dialogo'
+    DefaultTitle: 'DiaLogo_YukTravel.png'
 };
 gj.grid.messages['it-it'] = {
     First: 'Primo',

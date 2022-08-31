@@ -1,7 +1,7 @@
 body {
   background-color: #fff;
   font-family: 'Assistant', sans-serif;
-  color: #071C4D;
+  color: #434343;
 }
 
 // Navbar 
@@ -23,18 +23,18 @@ body {
 .navbar-light {
   .navbar-nav {
     .nav-link {
-      color: #071C4D;
+      color: #434343;
 
       &.active {
         font-weight: bold;
-        color: #071C4D !important;
+        color: #434343!important;
       }
     }
   }
 }
 
 .btn-login {
-  background-color: #071C4D;
+  background-color: #1BA0E2;
   color: #fff;
 
   &:hover {
@@ -46,7 +46,7 @@ body {
 header {
   margin-top: -68px;
   padding: 180px 0 165px;
-  background-image: url('../images/header-background.jpg');
+  background-image: url('../images/header.jpeg');
   background-size: cover;
 
   h1,
@@ -64,7 +64,7 @@ header {
   }
 
   .btn-get-started {
-    background-color: #FF9E53;
+    background-color: #FA5B17;
     color: #fff;
 
     &:hover {
@@ -98,7 +98,7 @@ header {
 // Popular
 .section-popular {
   min-height: 540px;
-  background: #051334;
+  background: linear-gradient(#1494C6,#96D7F8);
   margin-top: -50px;
   margin-bottom: -230px;
 
@@ -140,7 +140,7 @@ header {
 
       .travel-button {
         .btn-travel-details {
-          background-color: #FF9E53;
+          background-color: #FA5B17;
           color: #fff;
 
           &:hover {
@@ -216,7 +216,7 @@ header {
   }
 
   .btn-get-started {
-    background-color: #FF9E53;
+    background-color: #FA5B17;
     color: #fff;
 
     &:hover {
@@ -287,7 +287,7 @@ header {
       }
 
       .text-orange {
-        color: #FF9E53;
+        color: #FA5B17;
         font-weight: bold;
       }
     }
@@ -373,7 +373,7 @@ header {
   }
 
   .btn-join-now {
-    background-color: #FF9E53;
+    background-color: #FA5B17;
     color: #fff;
     border-radius: 0;
 
@@ -419,7 +419,7 @@ header {
   }
 
   .btn-add-now {
-    background-color: #071C4D;
+    background-color: #1BA0E2;
     color: #fff;
 
     &:hover {
@@ -463,12 +463,12 @@ header {
   p {
     font-weight: 300;
     font-size: 18px;
-    color: #b1b1b1;
+    color: #434343;
   }
 
   .btn-home-page {
     border-radius: 4px;
-    background: #071c4d;
+    background: #1BA0E2;
     color: #fff;
 
     &:hover {

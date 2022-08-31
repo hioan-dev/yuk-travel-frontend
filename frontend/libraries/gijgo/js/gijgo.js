@@ -1314,7 +1314,7 @@ gj.dialog.config = {
          * </script>
          * @example Auto.Width <!-- draggable, dialog.base -->
          * <div id="dialog" title="Wikipedia">
-         *   <img src="https://upload.wikimedia.org/wikipedia/en/thumb/8/80/Wikipedia-logo-v2.svg/1122px-Wikipedia-logo-v2.svg.png" width="420"/>
+         *   <img src="https://upload.wikimedia.org/wikipedia/en/thumb/8/80/Wikipedia-Logo_YukTravel.png-v2.svg/1122px-Wikipedia-Logo_YukTravel.png-v2.svg.png" width="420"/>
          * </div>
          * <script>
          *     $("#dialog").dialog({
