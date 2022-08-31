@@ -5,11 +5,21 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home | Travel yuk</title>
-    <link rel="stylesheet" href="frontend/libraries/bootstrap/css/bootstrap.css">
-    <link rel="stylesheet" href="frontend/styles/main.css">
-    <link href="https://fonts.googleapis.com/css?family=Assistant:200,400,700&&display=swap" rel="stylesheet"/>
-  <link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,700&display=swap" rel="stylesheet"/>
-</head>
+    <link
+      rel="stylesheet"
+      href="frontend/libraries/bootstrap/css/bootstrap.css"
+    />
+    <link rel="stylesheet" href="frontend/styles/main.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Assistant:200,400,700&&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Playfair+Display:400,700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="frontend/libraries/xzoom/dist/xzoom.css" />
+  </head>
 <body>
     <!--Navbar-->
     <div class="container">
@@ -291,26 +301,20 @@
             </div>
           </div>
         </div>
-    </footer>
-
-    <!-- Script Jquery-->
-    <script src="frontend/libraries/jquery/jquery-3.6.1.min.js"></script>
-
-    <!-- Script bootstrapjs-->
-    <script src="frontend/libraries/bootstrap/js/bootstrap.js"></script>
-
-    <!--- Script retinajs -->
-    <script src="frontend/libraries/retina/retina.min.js"></script>
-
-    <script>
-      $(document).ready(function() {
-        $('.xzoom, .xzoom-gallery').xzoom({
-          zoomWidth: 500,
-          title: false,
-          tint: '#333',
-          Xoffset: 15
+      </footer>
+      <script src="frontend/libraries/retina/retina.js"></script>
+      <script src="frontend/libraries/jquery/jquery-3.4.1.min.js"></script>
+      <script src="frontend/libraries/bootstrap/js/bootstrap.js"></script>
+      <script src="frontend/libraries/xzoom/dist/xzoom.min.js"></script>
+      <script>
+        $(document).ready(function() {
+          $('.xzoom, .xzoom-gallery').xzoom({
+            zoomWidth: 500,
+            title: false,
+            tint: '#333',
+            Xoffset: 15
+          });
         });
-      });
-    </script>
+      </script>
 </body>
 </html>
